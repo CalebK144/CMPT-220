@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class Debug {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        
+        System.out.println("How old are you? ");
+        String age = sc.next();
+        System.out.println("You are " + age + " years old");
+    
+        int num1 = 10;
+        int num2 = 37;
+        int sum = num1 + num2;
+
+        System.out.println("sum = " + sum);
+
+        // What I learned
+        // I have been refreshed on scanners and on the basic elements and syntax
+        // of variable creation and printing as well as for adding two integers together
+    }
+}
